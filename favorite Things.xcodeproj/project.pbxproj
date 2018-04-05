@@ -12,6 +12,7 @@
 		0AB0EF00207682F500414CEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB0EEFE207682F500414CEB /* Main.storyboard */; };
 		0AB0EF02207682F600414CEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AB0EF01207682F600414CEB /* Assets.xcassets */; };
 		0AB0EF05207682F600414CEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB0EF03207682F600414CEB /* LaunchScreen.storyboard */; };
+		0AB0EF0D207683D100414CEB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AB0EF0C207683D100414CEB /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0AB0EF01207682F600414CEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AB0EF04207682F600414CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AB0EF06207682F600414CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AB0EF0C207683D100414CEB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		0AB0EEF9207682F500414CEB /* favorite Things */ = {
 			isa = PBXGroup;
 			children = (
+				0AB0EF0C207683D100414CEB /* GoogleService-Info.plist */,
 				0AB0EEFA207682F500414CEB /* AppDelegate.swift */,
 				0AB0EEFC207682F500414CEB /* ViewController.swift */,
 				0AB0EEFE207682F500414CEB /* Main.storyboard */,
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AB0EF05207682F600414CEB /* LaunchScreen.storyboard in Resources */,
+				0AB0EF0D207683D100414CEB /* GoogleService-Info.plist in Resources */,
 				0AB0EF02207682F600414CEB /* Assets.xcassets in Resources */,
 				0AB0EF00207682F500414CEB /* Main.storyboard in Resources */,
 			);
